@@ -1,0 +1,35 @@
+media:
+  input: media
+  output: /media
+
+content:
+  - name: website
+    label: Website Content
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: name
+        label: Your Name
+        type: string
+      - name: bio
+        label: About Me
+        type: text
+      - name: education
+        label: Education
+        type: text
+      - name: profile_photo
+        label: Profile Photo
+        type: image
+      - name: instagram
+        label: Instagram
+        type: string
+      - name: youtube
+        label: YouTube
+        type: string
+      - name: facebook
+        label: Facebook
+        type: string
+      - name: snapchat
+        label: Snapchat
+        type: string
